@@ -78,7 +78,7 @@ class Healer(Character):
 
 
 def choice_char_class(char_name: str) -> Character:
-    """Return an Character object according to selected character class."""
+    """Return a Character object according to selected character class."""
     game_classes = {'warrior': Warrior, 'mage': Mage, 'healer': Healer}
 
     approve_choice: str = ''
